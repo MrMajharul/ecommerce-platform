@@ -43,7 +43,7 @@ A full-stack e-commerce platform built with Next.js, Node.js, Express, MongoDB, 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/MrMajharul/ecommerce-platform.git
    cd ecommerce-platform
    ```
 
@@ -61,14 +61,14 @@ A full-stack e-commerce platform built with Next.js, Node.js, Express, MongoDB, 
    STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key_here
    STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key_here
    STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret_here
-   PORT=5000
+   PORT=5001
    CLIENT_URL=http://localhost:3000
    NODE_ENV=development
    ```
 
    **Frontend (.env.local in client directory):**
    ```env
-   NEXT_PUBLIC_API_URL=http://localhost:5000/api
+   NEXT_PUBLIC_API_URL=http://localhost:5001/api
    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key_here
    ```
 
@@ -77,7 +77,7 @@ A full-stack e-commerce platform built with Next.js, Node.js, Express, MongoDB, 
    npm run dev
    ```
 
-   This will start both the backend server (port 5000) and frontend development server (port 3000).
+   This will start both the backend server (port 5001) and frontend development server (port 3000).
 
 ## API Endpoints
 
